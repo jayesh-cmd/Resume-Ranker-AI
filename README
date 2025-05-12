@@ -1,0 +1,22 @@
+# 🧠 Resume Ranker AI
+
+A simple and effective tool that ranks resumes based on how well they match a given job description — powered by Natural Language Processing and transformer embeddings.
+
+## 🚀 Demo
+
+Upload a job description, then upload multiple resume PDFs, and get an AI-generated similarity score for each resume.
+
+## 📌 Features
+
+- Extracts text from uploaded resume PDFs
+- Converts resumes and job description into embeddings using `all-MiniLM-L6-v2`
+- Calculates similarity using Cosine Similarity
+- Ranks resumes from best to worst match
+- Provides a download link for each uploaded resume
+
+## 🛠️ Built With
+
+- [Streamlit]
+- [PyPDF2]
+- [Sentence-Transformers]
+- [Scikit-learn]
