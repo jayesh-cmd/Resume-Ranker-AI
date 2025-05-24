@@ -20,3 +20,10 @@ Upload a job description, then upload multiple resume PDFs, and get an AI-genera
 - [PyPDF2]
 - [Sentence-Transformers]
 - [Scikit-learn]
+
+## 🤞 How To Use
+
+ - Move all resumes to any single folder
+ - Copy the folder's path and paste it in app.py where folder path is .
+ - Run by 'streamlit run app.py' this command and it will directly send to webpage 
+ - Boom just give prompt and it will give you the best candidate according to your requirement -----
